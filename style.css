@@ -86,7 +86,7 @@ header{
     gap: 60px;
 }
 .image{
-    background-image: url(/image/Image\ Placeholder.png);
+    background-image: url(Image\ Placeholder.png);
     width: 610px;
     height: 100%;
 }
@@ -248,12 +248,17 @@ form{
     margin-left: auto;
     border: none;
 }
+a{
+    text-decoration: none;
+}
 .credit{
-    width: 1099px;
-    height: 33px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.line {
     border-top: 1px solid #858584;
-    background-color:#3B3B3B;
-    margin-left: 180px;
+    width: 70%;
 }
 .credit1{
     font-family: 'work sans';
