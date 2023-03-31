@@ -83,7 +83,7 @@ header{
     height: 691px;
     background-color: #2B2B2B;
     display: flex;
-    gap: 60px;
+    justify-content: center;
 }
 .image{
     background-image: url(Image\ Placeholder.png);
